@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply min-h-screen antialiased bg-slate-100 text-slate-900 dark:bg-slate-950 dark:text-slate-100;
+  }
+}
+
+/* Chart.js container */
+.chart-box {
+  @apply h-[260px] w-full md:h-[280px];
+}
