@@ -1,0 +1,6 @@
+__pycache__/
+*.db
+*.pkl
+.env
+backend/data/
+node_modules/
